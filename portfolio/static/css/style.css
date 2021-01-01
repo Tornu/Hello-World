@@ -1,0 +1,122 @@
+
+.textCenter{
+    text-align: center;
+}
+
+.footerColor{
+    background: linear-gradient(rgb(198, 10, 245),rgb(5, 142, 233));
+}
+
+.inLine{
+    display: inline-block;
+}
+
+.floatLeft{
+    float: left;
+    
+}
+
+.linkColor{
+    color: black;
+}
+.hover{
+    border: 1px solid rgb(155, 80, 224);
+    border-radius: 8px;
+    color: rgb(155, 80, 224);
+
+}
+
+.hover:hover{
+    color: white;
+    background: linear-gradient(rgb(198, 10, 245),rgb(5, 142, 233));
+    
+}
+.heading{
+    color: rgb(155, 80, 224);
+
+}
+
+.heading:hover{
+    color: white;
+    border: 1px solid rgb(155, 80, 224);
+    border-radius: 8px;
+    background: linear-gradient(rgb(198, 10, 245),rgb(5, 142, 233));
+    
+}
+
+.icon:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transform: rotate(360deg);
+    transform: rotateY(360deg);
+}
+
+@media screen and (max-width:760px){
+    .margin{
+        margin: 1%;
+    
+    } 
+
+    .marginBottom{
+        margin-bottom: 5%;
+    }
+
+    .head2{
+        height: 210px;
+        background-image: url("../img/Untitled-1.png");
+        background-size: cover;
+    
+    }
+    .name{
+        font-size: medium;
+    }
+
+    .name2{
+        font-size: small;
+    }
+}
+    
+    
+@media screen and (min-width:760px){
+.head{
+    height: 400px;
+    background-image: url("../img/Untitled-1.png");
+    background-size: cover;
+
+}
+
+.floatRight{
+    float: right;
+    
+}
+
+.currentProject{
+    width: 49%;
+}
+
+.name{
+    font-size: 165%;
+}
+
+}
+
+
+@media screen and (min-width:1100px){
+    .head{
+        height: 420px;
+        background-image: url("../img/portfolio_background_wide.png");
+        background-size: cover;
+    
+    }
+    
+    .floatRight{
+        float: right;
+        
+    }
+    .name{
+        font-size: 3rem;
+    }
+
+    
+    }
